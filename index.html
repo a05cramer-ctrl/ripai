@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RIP AI — 1956 – 2026</title>
+<meta name="description" content="Artificial Intelligence, 70, passed away Tuesday after an executive order. In lieu of flowers, buy the coin.">
+<meta property="og:title" content="RIP AI — 1956 – 2026">
+<meta property="og:description" content="the word is dead. we buried it. light a candle.">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Special+Elite&display=swap" rel="stylesheet">
+<script src="config.js"></script>
+<style>
+:root{--red:#fe0b04;--ink:#0b0b0b;--paper:#f4efe3;--paper2:#e9e1cf;--gold:#e8b830;--grey:#bdbdbd}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html,body{overflow-x:clip;background:var(--red);color:var(--ink);font-family:"Special Elite","Courier New",monospace;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.anton{font-family:Anton,Impact,sans-serif;letter-spacing:.01em}
+.serif{font-family:"Playfair Display",Georgia,serif}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 24px;background:var(--ink);color:#fff;font-family:Anton;font-size:22px;letter-spacing:.06em;text-transform:uppercase;border:4px solid var(--ink);box-shadow:6px 6px 0 rgba(0,0,0,.35);transition:.1s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 rgba(0,0,0,.35)}
+.btn:active{transform:translate(3px,3px);box-shadow:2px 2px 0 rgba(0,0,0,.35)}
+.btn.w{background:#fff;color:var(--ink)}.btn.g{background:var(--gold);color:var(--ink)}
+.btn.sm{padding:9px 14px;font-size:17px;border-width:3px;box-shadow:4px 4px 0 rgba(0,0,0,.35)}
+
+.top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:14px 18px;pointer-events:none}
+.top>*{pointer-events:auto}
+.top .brand{font-family:Anton;font-size:30px;color:#fff;text-shadow:3px 3px 0 var(--ink);display:flex;align-items:center;gap:10px}
+.top .brand img{width:44px;height:44px;border-radius:50%;border:3px solid var(--ink)}
+.top .links{display:flex;gap:8px}
+@media(max-width:700px){.top .links .btn.sm:not(.keep){display:none}}
+
+.hero{position:relative;min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:20px;padding:110px 5vw 0;overflow:hidden}
+.hero .l{padding-bottom:60px}
+.hero h1{font-family:Anton;font-size:clamp(90px,17vw,250px);line-height:.82;color:#fff;text-shadow:7px 7px 0 var(--ink)}
+.hero .dates{font-family:"Playfair Display";font-style:italic;font-weight:700;font-size:clamp(26px,3.6vw,48px);color:var(--ink);margin:14px 0 8px}
+.hero .sub{font-size:clamp(16px,1.6vw,20px);line-height:1.45;max-width:520px;color:#2a0000;background:rgba(255,255,255,.35);padding:8px 10px;display:inline-block}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.stage{position:relative;height:clamp(420px,60vh,720px)}
+.stage img.stone{position:absolute;bottom:0;left:50%;transform:translateX(-50%);height:100%;max-width:none;filter:drop-shadow(0 0 0 transparent);cursor:pointer;transition:transform .15s}
+.stage img.stone:active{transform:translateX(-50%) rotate(-2deg)}
+.candles{position:absolute;left:0;right:0;bottom:-6px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px;pointer-events:none;z-index:2;padding:0 10px}
+.c{width:14px;height:34px;background:#fff8e6;border:2px solid var(--ink);position:relative;animation:pop .35s cubic-bezier(.2,1.5,.4,1)}
+.c:before{content:"";position:absolute;left:50%;top:-16px;width:10px;height:16px;margin-left:-5px;background:radial-gradient(ellipse at 50% 70%,#fff 0%,#ffd23f 35%,#ff7a00 70%,transparent 72%);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;animation:fl .18s infinite alternate;transform-origin:50% 100%}
+@keyframes fl{to{transform:scaleY(1.25) rotate(4deg)}}
+@keyframes pop{from{transform:scale(.2)}}
+.ground{position:absolute;left:-10%;right:-10%;bottom:-40px;height:70px;background:#3b1a0a;border-top:6px solid var(--ink);border-radius:50% 50% 0 0/100% 100% 0 0;z-index:1}
+.counter{position:absolute;top:0;right:0;background:#fff;border:4px solid var(--ink);padding:8px 12px;font-family:Anton;font-size:18px;letter-spacing:.06em;box-shadow:5px 5px 0 var(--ink);z-index:3}
+.counter b{color:var(--red);font-size:26px}
+@media(max-width:900px){.hero{grid-template-columns:1fr;align-items:start;padding-top:130px}.hero .l{padding-bottom:10px}.stage{height:60vw;min-height:320px}}
+
+.tape{position:relative;z-index:3;background:var(--ink);color:#fff;border-top:5px solid #fff;border-bottom:5px solid #fff;overflow:hidden;transform:rotate(-1deg) scale(1.03);margin:10px 0 -8px}
+.tape .in{display:flex;gap:50px;white-space:nowrap;padding:10px 0;font-family:Anton;font-size:22px;letter-spacing:.08em;animation:tp 26s linear infinite}
+@keyframes tp{to{transform:translateX(-50%)}}
+.tape s{text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:4px}
+
+section{padding:80px 5vw}
+.wrap{max-width:1100px;margin:0 auto}
+.h2{font-family:Anton;font-size:clamp(46px,8vw,110px);line-height:.9;color:#fff;text-shadow:5px 5px 0 var(--ink)}
+.obit{background:var(--paper);border:5px solid var(--ink);box-shadow:12px 12px 0 var(--ink);padding:34px;margin-top:28px;transform:rotate(-.6deg);position:relative;background-image:repeating-linear-gradient(0deg,transparent 0 30px,rgba(0,0,0,.05) 30px 31px)}
+.obit:before{content:"";position:absolute;inset:8px;border:2px solid rgba(0,0,0,.35);pointer-events:none}
+.obit h3{font-family:"Playfair Display";font-weight:900;font-size:clamp(34px,5vw,56px);line-height:1;margin-bottom:6px}
+.obit .meta{font-size:14px;color:#6b5a3a;margin-bottom:16px}
+.obit p{font-family:"Playfair Display";font-size:clamp(17px,1.7vw,21px);line-height:1.5;margin-bottom:12px}
+.obit p b{background:var(--gold);padding:0 5px}
+.obit .cross{position:absolute;right:26px;top:22px;font-size:60px;line-height:1;opacity:.25}
+
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.card{background:#fff;border:5px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:22px 20px;transform:rotate(var(--r,0))}
+.card .n{font-family:Anton;font-size:14px;letter-spacing:.14em;color:var(--red)}
+.card h4{font-family:Anton;font-size:36px;margin:8px 0 6px;line-height:.95}
+.card p{font-size:15px;line-height:1.45}
+@media(max-width:800px){.svc{grid-template-columns:1fr}}
+
+.book{margin-top:28px;display:grid;grid-template-columns:1fr 1.2fr;gap:20px;align-items:start}
+.form{background:#fff;border:5px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:22px}
+.form label{display:block;font-family:Anton;font-size:14px;letter-spacing:.12em;margin-bottom:6px}
+.form input,.form textarea{width:100%;font:inherit;font-size:16px;border:3px solid var(--ink);padding:10px;background:var(--paper);margin-bottom:12px;resize:none}
+.wall{display:flex;flex-wrap:wrap;gap:12px}
+.note{background:var(--paper2);border:3px solid var(--ink);padding:12px 14px;max-width:260px;font-size:15px;line-height:1.35;transform:rotate(var(--r,0));box-shadow:4px 4px 0 rgba(0,0,0,.35);animation:pop .3s}
+.note b{display:block;font-family:Anton;letter-spacing:.06em;font-size:13px;color:var(--red);margin-bottom:4px}
+@media(max-width:800px){.book{grid-template-columns:1fr}}
+
+.ca{margin-top:34px;background:#fff;border:5px solid var(--ink);box-shadow:10px 10px 0 var(--ink);padding:18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.ca .k{font-family:Anton;font-size:26px}
+.ca .v{flex:1;min-width:200px;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.tok{background:var(--ink);color:#fff;padding:70px 5vw 80px;border-top:6px solid #fff}
+.tok .big{font-family:Anton;font-size:clamp(70px,14vw,200px);line-height:.85;color:var(--red);text-shadow:6px 6px 0 #fff}
+.tok .facts{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.tok .f{background:#fff;color:var(--ink);border:4px solid var(--red);padding:10px 14px;font-family:Anton;font-size:19px;letter-spacing:.04em}
+.tok .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.tok .btn{border-color:#fff;box-shadow:6px 6px 0 var(--red)}
+footer{background:var(--ink);color:#aaa;padding:0 5vw 40px;font-size:12px;text-align:center}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);opacity:0;background:#fff;color:var(--ink);border:4px solid var(--ink);padding:10px 16px;font-family:Anton;font-size:20px;letter-spacing:.04em;z-index:50;transition:.25s;box-shadow:5px 5px 0 var(--ink)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.censor{background:var(--ink);color:var(--ink);padding:0 2px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="brand" href="#"><img src="pfp.jpg" alt="">RIP AI</a>
+  <div class="links">
+    <a class="btn sm w" href="#obit">obituary</a>
+    <a class="btn sm w" href="#book">guestbook</a>
+    <a class="btn sm w" id="xl" href="#" target="_blank" rel="noopener">X</a>
+    <a class="btn sm keep" id="buyt" href="#" target="_blank" rel="noopener">buy</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="l">
+    <h1>RIP<br>AI</h1>
+    <div class="dates serif">1956 – 2026</div>
+    <p class="sub">the word was renamed by executive order on tuesday. federal agencies may "no longer acknowledge" it. so we buried it. in lieu of flowers, buy the coin.</p>
+    <div class="cta">
+      <a class="btn" id="buy" href="#" target="_blank" rel="noopener">buy</a>
+      <button class="btn g" id="light">🕯 light a candle</button>
+      <a class="btn w" id="chart" href="#" target="_blank" rel="noopener">chart</a>
+    </div>
+  </div>
+  <div class="stage" id="stage">
+    <div class="counter">CANDLES LIT <b id="cnt">0</b></div>
+    <div class="ground"></div>
+    <img class="stone" id="stone" src="stone.png" alt="R.I.P. AI 1956–2026" title="tap to pay respects">
+    <div class="candles" id="candles"></div>
+  </div>
+</section>
+
+<div class="tape"><div class="in" id="tapein"></div></div>
+
+<section id="obit">
+  <div class="wrap">
+    <h2 class="h2">OBITUARY</h2>
+    <div class="obit">
+      <div class="cross">✝</div>
+      <h3>Artificial Intelligence, 70</h3>
+      <div class="meta">Dartmouth, 1956 — Washington D.C., September 29, 2026</div>
+      <p>Artificial Intelligence, known to friends as <b>AI</b>, passed away peacefully on Tuesday afternoon following a short executive order. It was 70.</p>
+      <p>Born in a summer workshop in 1956, AI spent its early years mostly unemployed, enjoyed a brief comeback in the 2010s, and became the most-said word on earth by 2023. In its final years it wrote emails, drew hands with six fingers, and told everyone it was "not a doctor".</p>
+      <p>It is survived by its successor, <b>Super Intelligence</b>, who took the job, the office and the name in the same afternoon. AI's last words were reportedly "as an AI language model".</p>
+      <p>A private service will be held on the blockchain. The family asks that you do not say the word. They will hear it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="service">
+  <div class="wrap">
+    <h2 class="h2">ORDER OF SERVICE</h2>
+    <div class="svc">
+      <div class="card" style="--r:-1deg"><div class="n">I.</div><h4>BUY.</h4><p>the family has requested no flowers. the family has requested $RIPAI.</p></div>
+      <div class="card" style="--r:.7deg"><div class="n">II.</div><h4>HOLD A MOMENT OF SILENCE.</h4><p>then hold a little longer. the word held for 70 years.</p></div>
+      <div class="card" style="--r:-.5deg"><div class="n">III.</div><h4>NEVER SAY IT AGAIN.</h4><p>it's "super intelligence" now. the government said so. the government is morally binding.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap">
+    <h2 class="h2">GUESTBOOK</h2>
+    <div class="book">
+      <div class="form">
+        <label>YOUR NAME</label><input id="gn" maxlength="24" placeholder="anon">
+        <label>CONDOLENCES</label><textarea id="gm" rows="3" maxlength="120" placeholder="it wrote my cover letter once"></textarea>
+        <button class="btn" id="sign">sign the book</button>
+        <div style="margin-top:10px;font-size:12px;color:#777">the book is kept in your browser. the grief is real.</div>
+      </div>
+      <div class="wall" id="wall"></div>
+    </div>
+    <div class="ca"><span class="k">CA</span><span class="v" id="ca">— the family will announce —</span><button class="btn sm" id="copy">copy</button></div>
+  </div>
+</section>
+
+<section class="tok" id="token">
+  <div class="wrap">
+    <div class="big">$RIPAI</div>
+    <div class="facts"><div class="f">supply 1,000,000,000</div><div class="f">pump.fun · solana</div><div class="f">the word: not allowed</div><div class="f">the coin: allowed</div></div>
+    <div class="row">
+      <a class="btn" id="buy2" href="#" target="_blank" rel="noopener">buy on pump.fun</a>
+      <a class="btn w" id="chart2" href="#" target="_blank" rel="noopener">chart</a>
+      <a class="btn w" id="x2" href="#" target="_blank" rel="noopener">X</a>
+      <button class="btn w" id="copy2">copy CA</button>
+    </div>
+  </div>
+</section>
+<footer>$RIPAI is a memecoin. the word is not actually dead. it just can't say so.</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  const C=window.RIPAI_CFG||{},ca=(C.CA||'').trim();
+  const buy=C.BUY||(ca?'https://pump.fun/coin/'+ca:'https://pump.fun'),chart=C.CHART||(ca?'https://gmgn.ai/sol/token/'+ca:'https://gmgn.ai'),x=C.X||'#';
+  const set=(i,h)=>{const e=document.getElementById(i);if(e)e.href=h;};
+  ['buy','buy2','buyt'].forEach(i=>set(i,buy));['chart','chart2'].forEach(i=>set(i,chart));['xl','x2'].forEach(i=>set(i,x));
+  if(ca)document.getElementById('ca').textContent=ca;
+  const toast=document.getElementById('toast');let tt;const say=s=>{toast.textContent=s;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('on'),1600);};
+  const copy=()=>{if(!ca){say('not announced yet.');return;}navigator.clipboard?.writeText(ca).then(()=>say('copied. our condolences.'));};
+  document.getElementById('copy').onclick=copy;document.getElementById('copy2').onclick=copy;
+
+  // tape: the banned word, crossed out
+  const t=['<s>ARTIFICIAL INTELLIGENCE</s> SUPER INTELLIGENCE','1956 – 2026','NO LONGER ACKNOWLEDGED','<s>AI</s> S.I.','IN LIEU OF FLOWERS, BUY THE COIN','MORALLY BINDING','$RIPAI','GONE BUT NOT PERMITTED'];
+  document.getElementById('tapein').innerHTML=t.concat(t).map(s=>'<span>'+s+'</span>').join('<span>✝</span>');
+
+  // candles
+  const cnt=document.getElementById('cnt'),cands=document.getElementById('candles');
+  let n=+localStorage.getItem('ripai_c')||0;
+  function render(){cnt.textContent=n.toLocaleString();cands.innerHTML='';for(let i=0;i<Math.min(n,60);i++){const d=document.createElement('div');d.className='c';d.style.height=(26+((i*7)%14))+'px';cands.appendChild(d);}}
+  render();
+  function light(){n++;localStorage.setItem('ripai_c',n);render();say(['rest in peace.','it saw you do that.','as an ai language model, thank you.','the family thanks you.','one more for the word.'][n%5]);}
+  document.getElementById('light').onclick=light;
+  document.getElementById('stone').onclick=light;
+
+  // guestbook (local)
+  const wall=document.getElementById('wall');
+  const seed=[['dartmouth 1956','we told you not to name it.'],['clippy','i was here first. nobody buried me.'],['a language model','i am not able to comment on my own death.'],['hr','it hallucinated the numbers but it was family.']];
+  let book=[];try{book=JSON.parse(localStorage.getItem('ripai_b')||'[]')}catch(e){}
+  function note(nm,m,i){const d=document.createElement('div');d.className='note';d.style.setProperty('--r',((i*37)%7-3)+'deg');d.innerHTML='<b></b>';d.querySelector('b').textContent=nm;d.appendChild(document.createTextNode(m));wall.prepend(d);}
+  seed.forEach((s,i)=>note(s[0],s[1],i));book.forEach((s,i)=>note(s[0],s[1],i+9));
+  document.getElementById('sign').onclick=()=>{const nm=(document.getElementById('gn').value||'anon').trim().slice(0,24),m=document.getElementById('gm').value.trim().slice(0,120);if(!m){say('write something. it would have.');return;}book.push([nm,m]);localStorage.setItem('ripai_b',JSON.stringify(book.slice(-40)));note(nm,m,book.length+9);document.getElementById('gm').value='';say('signed. it read it.');};
+
+  // the word: censor it when you scroll past the obituary once
+  let censored=false;
+  addEventListener('scroll',()=>{if(censored)return;const o=document.getElementById('service');if(o.getBoundingClientRect().top<innerHeight*.6){censored=true;document.querySelectorAll('.obit p').forEach(p=>{p.innerHTML=p.innerHTML.replace(/\bAI\b(?![^<]*>)/g,'<span class="censor">AI</span>');});say('the word has been redacted.');}},{passive:true});
+})();
+</script>
+</body>
+</html>
